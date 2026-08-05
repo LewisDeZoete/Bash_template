@@ -26,3 +26,5 @@ test_exists() {
     fi
 }
 alias te='test_exists'
+
+alias python_server='python -m http.server 8000'
