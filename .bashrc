@@ -116,7 +116,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Direnv
+eval "$(direnv hook bash)"
+
 # Add variables to path
 export PATH="~/.config/emacs/bin:$PATH"
 . "$HOME/.cargo/env"
+. "$HOME/.local/bin/env"
 #export PATH="/usr/local/texlive/2025/bin/x86_64-linux:$PATH"
+
+
