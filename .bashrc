@@ -123,6 +123,6 @@ eval "$(direnv hook bash)"
 export PATH="~/.config/emacs/bin:$PATH"
 . "$HOME/.cargo/env"
 . "$HOME/.local/bin/env"
-#export PATH="/usr/local/texlive/2025/bin/x86_64-linux:$PATH"
+# export PATH="/usr/local/texlive/2026/bin/x86_64-linux:$PATH"
 
 
